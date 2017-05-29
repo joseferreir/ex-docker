@@ -1,9 +1,9 @@
 # Criar imagem
-## Dentro do diretório /banco execulte:
+## Dentro do diretório /banco execute:
 
 docker build -t jose/postgres .
 
-## Dentro do diretório raiz execulte:
+## Dentro do diretório raiz execute:
 
 docker build -t teste-docker .
 
