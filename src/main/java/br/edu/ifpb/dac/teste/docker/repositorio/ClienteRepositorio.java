@@ -27,7 +27,7 @@ public class ClienteRepositorio {
          String driver = "org.postgresql.Driver";
          //banco local
            // String url = "jdbc:postgresql://localhost:5432/teste-docker";
-             String url = "jdbc:postgresql://bd/teste-docker";
+             String url = "jdbc:postgresql://bd:5432/teste-docker";
             String user = "postgres";
             String password = "123456";
           return DriverManager.getConnection(url, user, password);
